@@ -1,0 +1,47 @@
+@use "sass:math";
+
+.popular-categories-title {
+  font-size: 2rem;
+  padding: 40px 0px 20px $base-padding;
+
+  @media screen and (max-width: 825px) {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 0 40px 0;
+  }
+}
+
+.popular-categories {
+  width: 100%;
+  padding: 0 $base-padding 40px;
+  grid-gap: 50px 0;
+
+  .item {
+    padding-left: 0 !important;
+    display: flex;
+    align-items: flex-start;
+    font-size: 15px;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      label {
+        font-weight: 500;
+      }
+
+      p {
+        margin: 0;
+        max-width: 150px;
+        color: $card-seconday-color;
+      }
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    padding: 0 math.div($base-padding, 2) 40px;
+  }
+}

@@ -1,0 +1,15 @@
+// variables
+@import "/src/styles/variables";
+
+// base & layout
+@import "/src/styles/base";
+
+// Components
+@import "/src/styles/components/header";
+@import "/src/styles/components/footer";
+@import "/src/styles/components/layout";
+@import "/src/styles/components/card";
+@import "/src/styles/components/carousel";
+@import "/src/styles/components/popular-categories";
+@import "/src/styles/components/not-found";
+@import "/src/styles/components/book";

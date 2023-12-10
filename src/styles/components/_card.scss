@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  max-width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 10px;
+  cursor: pointer;
+
+  img {
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .title {
+    color: $card-seconday-color;
+  }
+
+  .captions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-transform: capitalize;
+
+    .captions {
+      color: $card-seconday-color;
+      font-size: 12px;
+    }
+  }
+}

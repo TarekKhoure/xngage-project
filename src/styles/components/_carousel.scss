@@ -1,0 +1,49 @@
+@use "sass:math";
+
+.loader-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-transform: capitalize;
+  padding: 3rem 0;
+
+  .title {
+    padding-left: $base-padding;
+    font-size: 2rem;
+    font-weight: 500;
+
+    @media screen and (max-width: 768px) {
+      padding-left: math.div($base-padding, 2);
+    }
+  }
+
+  .carousel {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 3.5rem;
+    align-items: center;
+    align-items: flex-start;
+
+    .next,
+    .prev {
+      min-width: 50px;
+      min-height: 50px;
+      font-size: 24px;
+      font-weight: 700;
+      color: rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      align-self: center;
+    }
+  }
+}

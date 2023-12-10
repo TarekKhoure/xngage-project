@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+header {
+  display: flex;
+  min-height: $base-header-height;
+  align-items: center;
+  background-color: $primary;
+  padding: 0 $base-padding;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+
+  ul {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+
+    a {
+      position: relative;
+    }
+
+    .active {
+      color: #000;
+      display: flex;
+      align-items: center;
+
+      &::after {
+        position: absolute;
+        content: "▼";
+        font-size: 8px;
+        right: -10px;
+      }
+    }
+  }
+
+  .title {
+    font-size: 2.5rem;
+
+    #books {
+      font-family: "Roboto";
+      font-weight: bolder;
+    }
+  }
+
+  .links-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #menu-toggle-button {
+    position: absolute;
+    cursor: pointer;
+    display: none;
+  }
+
+  #header-search-icon {
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 1160px) {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    .links-container {
+      display: none;
+
+      ul {
+        padding: 10px auto;
+      }
+    }
+
+    #menu-toggle-button {
+      display: block;
+      right: 20px;
+      top: 25px;
+    }
+
+    &.shown {
+      padding: 20px 0;
+
+      .links-container {
+        display: flex;
+      }
+    }
+  }
+}

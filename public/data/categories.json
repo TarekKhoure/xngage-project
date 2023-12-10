@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "image": "https://edit.org/images/cat/book-covers-big-2019101610.jpg",
+      "title": "Aenean",
+      "description": "Mauris sollicitudin fermentum libero. Phasellus viverra nulla ut metus varius laoreet."
+    },
+    {
+      "id": 2,
+      "image": "https://edit.org/images/cat/book-covers-big-2019101610.jpg",
+      "title": "Donec posuere",
+      "description": "Aenean vulputate eleifend tellus. Nulla facilisi."
+    },
+    {
+      "id": 3,
+      "image": "https://edit.org/images/cat/book-covers-big-2019101610.jpg",
+      "title": "Maecenas",
+      "description": "Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus."
+    },
+    {
+      "id": 4,
+      "image": "https://edit.org/images/cat/book-covers-big-2019101610.jpg",
+      "title": "Aenean",
+      "description": "Mauris sollicitudin fermentum libero. Phasellus viverra nulla ut metus varius laoreet."
+    },
+    {
+      "id": 5,
+      "image": "https://edit.org/images/cat/book-covers-big-2019101610.jpg",
+      "title": "Donec posuere",
+      "description": "Aenean vulputate eleifend tellus. Nulla facilisi."
+    },
+    {
+      "id": 6,
+      "image": "https://edit.org/images/cat/book-covers-big-2019101610.jpg",
+      "title": "Maecenas",
+      "description": "Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus."
+    },
+    {
+      "id": 7,
+      "image": "https://edit.org/images/cat/book-covers-big-2019101610.jpg",
+      "title": "Aenean",
+      "description": "Mauris sollicitudin fermentum libero. Phasellus viverra nulla ut metus varius laoreet."
+    },
+    {
+      "id": 8,
+      "image": "https://edit.org/images/cat/book-covers-big-2019101610.jpg",
+      "title": "Donec posuere",
+      "description": "Aenean vulputate eleifend tellus. Nulla facilisi."
+    },
+    {
+      "id": 9,
+      "image": "https://edit.org/images/cat/book-covers-big-2019101610.jpg",
+      "title": "Maecenas",
+      "description": "Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus."
+    }
+  ]
+}

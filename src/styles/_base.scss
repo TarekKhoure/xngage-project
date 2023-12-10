@@ -1,0 +1,23 @@
+// Font Familty
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Roboto:wght@100;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
